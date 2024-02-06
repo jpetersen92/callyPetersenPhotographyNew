@@ -1,0 +1,53 @@
+.mentorshipTop {
+    // background-color: $primary;
+    height: 600px;
+    color: $white;
+    background-image: url(../assets/mentorBG.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+
+    h4 {
+        font-size: 2.5rem;
+        color: $black;
+    }
+    h5 {
+        color: $black;
+    }
+}
+
+
+.mentorshipBottom {
+    padding: 100px 0;
+    background-color: $fir;
+
+}
+
+.mentorshipContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+
+    p {
+        color: $black;
+        font-size: 1.4rem;
+        margin: 0 0 80px;
+        text-align: center;
+    }
+
+    .button {
+        margin-top: 10px;
+        color: $black;
+        background-color: $cream;
+        border-color: $fir;
+    }
+
+    .button:hover {
+        border: 1px solid $primary;
+        color: $white;
+        background-color: $primary;
+    }
+}

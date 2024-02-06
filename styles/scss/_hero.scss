@@ -1,0 +1,45 @@
+.hero {
+    height: calc(100vh - 100px);
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/leafRightDesk.jpg);
+    background-size: cover;
+    background-position: right;
+
+
+    h1 {
+        margin: 0;
+        margin-bottom: 25px;
+    }
+
+    h2 {
+        font-size: 0.7rem;
+        margin: 25px 0;
+    }
+}
+
+.heroContainer {
+    gap: 40px;
+    margin: 50px;
+}
+
+.heroImgContainer, .heroContent {
+    padding: 0 15px;
+}
+
+.heroContent {
+
+    img {
+        width: 125px;
+    }
+}
+
+.tagline {
+    height: 70px;
+    color: $white;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 0 20px;
+}

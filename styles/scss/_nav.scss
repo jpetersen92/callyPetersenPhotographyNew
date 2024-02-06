@@ -1,0 +1,105 @@
+header {
+    background-color: $white;
+    border-bottom: 1px solid $black;
+    height: 100px;
+    z-index: 10;
+    padding: 3px 0;
+}
+
+.navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    z-index: 10;
+}
+
+.navLogoContainer {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 100%
+    }
+}
+
+.navMenu {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.navLink{
+    color: $black;
+    font-size: 0.8rem;
+    transition: 0.5s ease;
+
+}
+
+.navLink:hover {
+    color: $primary;
+}
+
+.bookNow {
+    border: 1px solid $goldenHour;
+    padding: 5px 15px;
+}
+
+.socialIconContainer {
+    padding-top: 5px;
+    width: 150px;
+    display: flex;
+    justify-content: flex-end;
+
+    i {
+        font-size: 1.4rem;
+        color: $primary;
+        transition: 0.5s ease;
+    }
+    i:last-child {
+        padding-left: 10px;
+    }
+
+    i:hover {
+        color: $crescentBeach
+    }
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 24px;
+}
+
+.bar {
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: $primary;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    background-color: $crescentBeach;
+}
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    background-color: $crescentBeach;
+}
+
+.navMenu.active {
+    top: 100px;
+    opacity: 1;
+}

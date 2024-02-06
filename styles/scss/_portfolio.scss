@@ -1,0 +1,27 @@
+.portfolio {
+    background-image: url(../../assets/leafLeftDesk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 50px 50px;
+}
+
+.gridContainer {
+
+    h3 {
+        font-size: 4rem;
+        padding-left: 15px;
+        margin-bottom: 10px;
+    }
+
+    img {
+        width: calc(100% / 3);
+        margin: 15px;
+        border: 15px solid $white;
+    }
+
+    .button {
+        margin-top: 25px;
+    }
+}

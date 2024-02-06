@@ -1,0 +1,745 @@
+
+
+@media(min-width: 1300px) {
+    .minisContainer {
+        padding: 50px 0;
+    }
+    .minisContent {
+        h3 {
+            text-align: left;
+        }
+    }
+}
+@media(max-height: 765px) and (min-width: 1150px) {
+    .heroContainer {
+        margin: 10px 150px;
+        gap: 20px;
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 1.5rem;
+        }
+        
+        h2 {
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+
+// Desktop 1025px — 1200px
+@media(max-width: 1200px) {
+    // about and minis (h3)
+    .heroContainer {
+        gap: 0;
+        margin: 30px;
+    }
+    .navMenu {
+        gap: 30px;
+    }
+
+
+    .minisContent {
+        padding: 0 30px 0 30px;
+    }
+}
+
+@media(max-width: 1160px) {
+    // Nav (gap) and Hero (gap)
+    
+    .aboutContent {
+        h3 {
+            font-size: 3.5rem;
+        }
+        p {
+            margin-right: 25%;
+        }
+    }
+
+    .minisContent {
+        padding: 0 25px;
+        h3 {
+            font-size: 2.2rem;
+        }
+
+        h4 {
+            font-size: 1.1rem;
+        }
+    }
+
+    .minisContent .button {
+        margin-top: 5px
+    }
+
+    .navMenu {
+        gap: 20px;
+    }
+
+}
+
+@media (max-width: 1080px) {
+    .heroContainer {
+        margin: 30px 0px;
+        h2 {
+            margin: 10px 0;
+        }
+        h1 {
+            margin-bottom: 20px;
+            font-size: 1.6rem;
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
+    }
+
+    .aboutContent {
+        h3 {
+            font-size: 3rem;
+        }
+        h4 {
+            font-size: 1.4rem;
+        }
+        p {
+            margin-right: 25%;
+        }
+    }
+    .familyPortrait {
+        left: -25%;
+    }
+
+    .minisContent {
+        h3 {
+            font-size: 2rem;
+        }
+        h4 {
+            font-size: 1.1rem;
+        }
+    }
+    .navMenu {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .minisContainer {
+        flex-direction: column;
+        
+        img {
+            width: 100%;
+        }
+        .minisContent {
+            width: 100%;
+            padding: 50px 80px;
+            align-items: center;
+
+            h3 {
+                font-size: 3rem;
+            }
+
+            h4 {
+                font-size: 1.5rem;
+                margin: 15px 0 30px;
+                text-align: center;
+            }
+
+            p {
+                text-align: center;
+                padding: 0 20px;
+            }
+
+            .button {
+                margin-top: 20px;
+            }
+        }
+
+        .desktop{
+            display: none;
+        }
+        
+        .mobile {
+            display: block;
+        }
+    }
+}
+
+// Small screens, laptops – 769px — 1024px
+@media(max-width: 1024px) { 
+    .quoteContainer, .mentorshipTop {
+        background-attachment: initial;
+    }
+
+    .swiper-button-next {
+        right: 30%;
+    }
+    
+    .swiper-button-prev {
+        left: 30%;
+    }
+
+    .socialIconContainer {
+        width: 100px;
+    }
+
+    .mentorshipTop {
+        h4 {
+        font-weight: bold;
+    }
+    }
+}
+
+
+
+@media(max-width: 960px) {
+
+    // HEADER/ NAV START
+
+    .hamburger {
+        display: block;
+    }
+
+    .navMenu {
+        position: absolute;
+        padding: 25px 0;
+        top: -275px;
+        left: 0;
+        gap: 0;
+        flex-direction: column;
+        background-color: $primary;
+        width: 100vw;
+        text-align: center;
+        opacity: 0;
+        transition: 0.3s ease-out;
+    }
+    .navItem {
+        margin: 8px 0;
+        z-index: 1;
+    }
+    .navLink {
+        color: $white;
+    }
+    .navLink:hover {
+        color: $crescentBeach;
+    }
+
+    .socialIconContainer {
+        margin-right: 100px;
+        padding: 0;
+    }
+
+    // HEADER/ NAV END
+
+    // HERO START
+
+    .hero {
+        height: 100%;
+    }
+    .heroContainer {
+        margin: 50px;
+        flex-direction: column;
+    }
+
+    .heroContent {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1, p {
+            text-align: center;
+        }
+
+        img {
+            display: none;
+        }
+    }
+
+    .heroContent, .heroImgContainer  {
+        width: 100%;
+    }
+
+    .heroImgContainer {
+        max-width: 500px;
+    }
+
+    // HERO END
+
+    // ABOUT START
+
+    .aboutContainer {
+        flex-direction: column-reverse;
+    }
+
+    .aboutContent, .aboutImages {
+        width: 100%;
+    }
+
+    .aboutContent {
+        justify-content: center;
+        align-items: center;
+        padding: 20px 50px;
+        // margin-top: 15%;
+        h3 {
+            font-size: 3.5rem;
+            text-align: end;
+            padding-left: 50%;
+            padding-right: 10%;
+            // align-self: end;
+        }
+        h4 {
+            margin: 20px 0;
+        }
+        p {
+            margin: 0;
+            text-align: center;
+        }
+    }
+
+    .aboutImages {
+
+        .desktop {
+            display: none;
+        }
+        .mobile {
+            display: block;
+        }
+
+        .aboutLogo {
+            width: 25%;
+            top: 88%;
+            left: 32%;
+            bottom: 0;
+            min-width: 150px;
+        }
+        .familyPortrait {
+            top: 75%;
+            left: 3%;
+            width: 40%;
+            min-width: 260px;
+        }
+    }
+
+    // ABOUT END
+
+    // PACKAGES START
+
+    .packages {
+        padding-top: 50px;
+    }
+
+    .sessionContainer {
+        h5 {
+            font-size: 1.1rem;
+        }
+    }
+
+    // PACKAGES END
+
+    // PORTFOLIO START
+    .portfolio {
+        padding: 50px 20px;
+    }
+
+    .gridContainer {
+        img {
+            margin: 10px;
+        }
+    }
+    // PORTFOLIO END
+
+    // FOOTER START
+
+    .footerSocial {
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    // FOOTER END
+
+    .mentorshipTop{
+        height: 500px;
+    }
+}
+
+
+
+@media(max-width: 890px) {
+
+    .quote {
+        font-size: 1.5rem;
+    }
+
+    .gridContainer {
+        h3 {
+            font-size: 3rem;
+        }
+    }
+
+    .testimonials {
+        padding: 50px;
+    }
+
+    .testimonialContainer {
+        flex-direction: column;
+    }
+
+    .loveNotes, .noteContent, .swiper {
+        width: 100%;
+    }
+    
+    .loveNotes {
+        h3 {
+            margin: 0;
+        }
+        img {
+            margin-bottom: 5px;
+            width: 200px;
+        }
+    }
+    
+    .swiper-button-next {
+        right: 40%;
+    }
+    
+    .swiper-button-prev {
+        left: 40%;
+    }
+
+    .mentorshipTop{
+        h4 {
+            font-size: 2rem;
+        }
+    }
+    .mentorshipBottom {
+        padding: 80px 0;
+    }
+    .mentorshipContainer{
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+@media(max-width: 790px) { 
+    footer {
+        padding: 50px 0 30px;
+    }
+
+    .footerSocial { 
+        width: 100%;
+
+        ul {
+            margin-left: 30px;
+
+        }
+    }
+    .follow {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+}
+
+// iPads, Tablets – 481px — 768px
+@media(max-width: 768px) {
+
+    .packages {
+        padding: 50px;
+    }
+
+    .packageContainer {
+        flex-direction: column;
+    }
+    .sessionContainer:nth-child(2) {
+        padding: 0;
+    }
+    .sessionContainer {
+        max-width: 500px;
+        margin: 30px 0;
+        h5 {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media(max-width: 700px) {
+
+    .loader {
+        img {
+            width: 80%;
+        }
+    }
+
+    .aboutContent {
+        h3 {
+            font-size: 2.5rem;
+        }
+    }
+
+    .quote {
+        font-size: 1.3rem;
+    }
+
+    .minisContainer {
+        .minisContent {
+            padding: 50px;
+        }
+    }
+    
+    footer {
+        img{
+            right: 5%;
+            width: 180px;
+        }
+    }
+
+    .footerSocial { 
+        ul {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        .follow {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+    }
+
+    .mentorshipTop{
+        h4 {
+            font-size: 1.8rem;
+        }
+    }
+    .mentorshipBottom {
+        padding: 60px 0;
+    }
+    .mentorshipContainer{
+        p {
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+        }
+    }
+
+}
+
+@media(max-width: 620px) {
+
+    .heroContainer {
+        margin: 50px 20px;
+    }
+
+    .heroImgContainer, .heroContent {
+        padding: 0;
+    }
+
+
+    .aboutContent {
+        h3 {
+            padding-right: 20px;
+        }
+    }
+
+    .quoteContainer {
+        height: 400px;
+    }
+
+    .gridContainer {
+
+
+        img {
+            border: 10px solid $white;
+        }
+    }
+
+    .swiper-button-next {
+        right: 30%;
+    }
+    
+    .swiper-button-prev {
+        left: 30%;
+    }
+
+    .mentorshipTop{
+        height: 400px;
+        h4 {
+            font-size: 1.6rem;
+        }
+    }
+    .mentorshipBottom {
+        padding: 40px 0;
+    }
+    .mentorshipContainer{
+        p {
+            font-size: 0.8rem;
+        }
+    }
+
+}
+
+@media(max-width: 580px) {
+    
+    .aboutContent {
+        padding-top: 70px;
+        h3 {
+            padding: 0;
+            text-align: center;
+        }
+    }
+
+    .aboutImages {
+        .familyPortrait {
+            display: none;
+        }
+    
+        .aboutLogo {
+            left: 30px;
+            top: 85%;
+            min-width: 130px;
+        }
+    }
+
+    .aboutContent, .minisContainer .minisContent {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .minisContainer .minisContent h3 {
+        font-size: 2.5rem;
+    }
+
+    .quote {
+        font-size: 1rem;
+    }
+
+    .portfolio{
+        padding: 35px 10px 30px;
+    }
+
+    .gridContainer {
+
+        h3 {
+            font-size: 2.5rem;
+        }
+        img {
+            margin: 5px;
+        }
+    }
+
+    .loveNotes {
+        h3 {
+            font-size: 3rem;
+        }
+    }
+
+    footer {
+        img{
+            right: 2%;
+            top: -75px;
+            width: 150px;
+        }
+    }
+}
+
+@media(max-width: 515px) {
+    footer {
+        img{
+            right: calc(50% - 80px);
+            top: -80px;
+            width: 160px;
+        }
+    }
+    .footerNav {
+        margin-top: 50px;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mentorshipTop{
+        height: 300px;
+        h4 {
+            font-size: 1.2rem;
+        }
+    }
+
+    .mentorshipContainer{
+        margin: 0 30px;
+    }
+}
+
+// Mobile devices – 320px — 480px
+
+@media(max-width: 430px) {
+
+    .socialIconContainer {
+        width: 0;
+        margin-right: 75px;
+    }
+
+    .tagline {
+        padding: 0 10px;
+    }
+    .tagContainer {
+        p {
+            font-size: 0.7rem;
+        }
+    }
+
+    .aboutContainer {
+        h3 {
+            font-size: 2rem;
+        }
+    }
+
+    .packages {
+        padding: 50px 25px;
+    }
+
+    .minisContainer {
+        .minisContent {
+            h3 {
+                font-size: 2rem;
+            }
+            h4 {
+                font-size: 1.2rem;
+            }
+            p {
+                padding: 0;
+            }
+        }
+    }
+
+    .quote {
+        font-size: 0.85rem;
+    }
+
+    .testimonials {
+        padding: 50px 25px;
+    }
+
+    .loveNotes {
+
+        h3 {
+            font-size: 2.5rem;
+        }
+        img {
+            width: 180px;
+        }
+
+    }
+
+    .mentorshipTop{
+        h4 {
+            font-size: 1rem;
+        }
+    }
+    
+}

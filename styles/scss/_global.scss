@@ -1,0 +1,82 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: $black;
+    
+}
+
+p {
+    font-size: .8rem;
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.hidden,.mobile {
+    display: none;
+}
+
+img {
+    width: 100%;
+}
+
+.heroContainer, .aboutContainer, .packageContainer, .tagline, .quoteContainer, .gridContainer, .threeImgRow, .minisContainer, .testimonialContainer, .contact, .mentorshipTop, .mentorshipBottom  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteContainer, .gridContainer, .contact, .mentorshipTop {
+    flex-direction: column;
+}
+
+.heroContent, .heroImgContainer, .minisImg, .minisContent, .loveNotes {
+    width: 50%;
+}
+
+.button {
+    border: 1px solid $white;
+    text-align: center;
+    background-color: $white;
+    padding: 15px 30px;
+    color: $primary;
+    transition: 0.5s ease;
+}
+
+.button.book:hover {
+    border: 1px solid $primary;
+    color: $white;
+    background-color: $crescentBeach;
+}
+
+.button:hover {
+    border: 1px solid $primary;
+    color: $white;
+    background-color: $primary;
+}
+
+.archImg {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    // padding-right:50px;
+}
