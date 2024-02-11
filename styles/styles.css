@@ -683,10 +683,10 @@ header {
 }
 .mentorshipTop h4 {
   font-size: 2.5rem;
-  color: #000;
+  color: #fff;
 }
 .mentorshipTop h5 {
-  color: #000;
+  color: #fff;
 }
 
 .mentorshipBottom {
@@ -711,7 +711,7 @@ header {
   margin: 0 50px;
 }
 .mentorshipContainer p {
-  color: #000;
+  color: #fff;
   font-size: 1.4rem;
   margin: 0 0 80px;
   text-align: center;
@@ -775,7 +775,7 @@ header {
 }
 .minisContent h3 {
   padding-left: 20px;
-  font-size: 3rem;
+  font-size: 2.2rem;
   text-align: center;
   color: #C9994F;
 }
@@ -1112,7 +1112,7 @@ footer img {
     padding: 0 25px;
   }
   .minisContent h3 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   .minisContent h4 {
     font-size: 1.1rem;
@@ -1401,6 +1401,9 @@ footer img {
     font-size: 1.1rem;
     margin-bottom: 50px;
   }
+  .minisContainer .minisContent h3 {
+    font-size: 2.5rem;
+  }
 }
 @media (max-width: 790px) {
   footer {
@@ -1436,6 +1439,9 @@ footer img {
   }
   .sessionContainer h5 {
     font-size: 1.5rem;
+  }
+  .minisContainer .minisContent h3 {
+    font-size: 2.2rem;
   }
 }
 @media (max-width: 700px) {
@@ -1517,6 +1523,9 @@ footer img {
   .mentorshipContainer p {
     font-size: 0.8rem;
   }
+  .minisContainer .minisContent h3 {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 580px) {
   .aboutContent {
@@ -1539,7 +1548,7 @@ footer img {
     padding-right: 20px;
   }
   .minisContainer .minisContent h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .quote {
     font-size: 1rem;
@@ -1594,6 +1603,9 @@ footer img {
   .mentorshipContainer {
     margin: 0 30px;
   }
+  .minisContainer .minisContent h3 {
+    font-size: 1.6rem;
+  }
 }
 @media (max-width: 430px) {
   .socialIconContainer {
@@ -1613,7 +1625,7 @@ footer img {
     padding: 50px 25px;
   }
   .minisContainer .minisContent h3 {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
   .minisContainer .minisContent h4 {
     font-size: 1.2rem;
