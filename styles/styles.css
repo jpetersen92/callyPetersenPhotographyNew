@@ -695,6 +695,9 @@ header {
 .mentorshipTop h5 {
   color: #fff;
 }
+.mentorshipTop img {
+  width: 100px;
+}
 
 .mentorshipBottom {
   padding: 100px 0;
