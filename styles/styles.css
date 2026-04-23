@@ -1297,6 +1297,7 @@ footer img {
   }
   .heroImgContainer {
     max-width: 500px;
+    display: none;
   }
   .aboutContainer {
     -webkit-box-orient: vertical;
