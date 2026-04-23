@@ -230,8 +230,7 @@ html {
   border: 0;
   padding: 0;
   white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -241,7 +240,7 @@ html {
 }
 
 .tagline {
-  background-color: #5E695E;
+  background-color: #3F444D;
 }
 
 .about, .packages {
@@ -249,7 +248,7 @@ html {
 }
 
 footer {
-  background-color: #5E695E;
+  background-color: #3F444D;
 }
 
 .minis, .testimonials {
@@ -701,7 +700,7 @@ header {
 
 .mentorshipBottom {
   padding: 100px 0;
-  background-color: #5E695E;
+  background-color: #3F444D;
 }
 
 .mentorshipContainer {
@@ -730,7 +729,7 @@ header {
   margin-top: 10px;
   color: #000;
   background-color: #F7F0E5;
-  border-color: #5E695E;
+  border-color: #3F444D;
 }
 .mentorshipContainer .button:hover {
   border: 1px solid #C9994F;
